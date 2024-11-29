@@ -17,3 +17,4 @@ _start:                         ; Inicio del programa
     mov rax, 60                 ; syscall: exit (número 60)
     xor rdi, rdi                ; código de salida 0 (success)
     syscall                     ; Llamada al sistema para salir
+                                ;proyecto 2
